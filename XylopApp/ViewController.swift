@@ -14,6 +14,36 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func keyPressedC(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedD(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedE(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedF(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedG(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedA(_ sender: UIButton)
+    {
+        
+    }
+    @IBAction func keyPressedB(_ sender: UIButton)
+    {
+        
+    }
+
+
 
 }
 
