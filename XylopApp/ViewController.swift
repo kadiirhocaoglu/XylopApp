@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  XylopApp
-//
-//  Created by Kadir Hocaoğlu on 21.07.2023.
-//
 
 import UIKit
 import AVFoundation
@@ -38,11 +32,15 @@ class ViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
-
     @IBAction func keyPressed(_ sender: UIButton)
     {
-        playSound(sender.currentTitle ?? "C")
+        if let nameSound = sender.titleLabel?.text{
+            playSound(nameSound)
+        }
     }
     
-}
 
+  
+
+
+}
